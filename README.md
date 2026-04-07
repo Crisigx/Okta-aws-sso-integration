@@ -12,11 +12,14 @@ User → Okta → SAML Assertion → AWS → Role Access
 - Okta group mapping to AWS IAM roles
 
 ## Steps
-- Configure AWS IAM roles
-- Set up Okta AWS application
-- Configure SAML settings
-- Assign users/groups
-- Test login flow
+1. Create IAM roles in AWS for SAML federation (Admin and Read-only)
+2. Configure AWS as a SAML Identity Provider
+3. Download AWS SAML metadata
+4. Create AWS application in Okta
+5. Upload AWS metadata into Okta
+6. Configure SAML attributes and role mappings
+7. Assign Okta groups to AWS roles
+8. Test SSO login through Okta dashboard
 
 ## Screenshots
 (To be added)
